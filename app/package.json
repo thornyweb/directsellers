@@ -1,0 +1,17 @@
+{
+  "name": "directsellers",
+  "version": "1.0.0",
+  "description": "Web app for direct sellers to manage customers, leads and orders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "direct",
+    "sell",
+    "selling",
+    "sellers"
+  ],
+  "author": "michael@thornyweb.co.uk",
+  "license": "ISC"
+}
