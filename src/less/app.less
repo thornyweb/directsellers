@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Raleway:400,700');
+@import "twbs/bootstrap";
+@import (reference) "variables";
+
+#react-container {
+    @media (min-width: @screen-sm-min) {
+        min-height: 100vh;
+        background-image: url('../img/main.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        overflow: auto;
+    }
+    #mainHeader {
+        h1 {
+            small {
+                .hidden-xs;
+                color: #fff;
+            }
+        }
+    }
+    #mainContent {
+        #loginBox {
+            .make-md-column(8);
+            .make-md-column-offset(2);
+            .make-xs-column(10);
+            .make-xs-column-offset(1);
+            background-color: transparent;
+            h2 {
+                .text-center;
+            }
+        }
+    }
+    #mainFooter {
+        margin-top: 1em;
+    }
+}
